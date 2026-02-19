@@ -1,11 +1,12 @@
-import ToDo from "./components/Projects/01_ToDo/ToDo";
-import NewToDo from "./components/Projects/02_NewTodo/NewToDo";
+import Counter from "./components/hooks/Counter";
 
 const App = () => {
   return (
     <div>
+      <Counter />
+      {/* <ShortCircuit/> */}
       {/* <NewToDo /> */}
-      <ToDo />
+      {/* <ToDo /> */}
     </div>
   );
 };

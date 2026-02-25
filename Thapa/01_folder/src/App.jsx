@@ -1,10 +1,10 @@
 import FormLogin from "./components/Projects/FormLogin";
-
+import FormCardRight from "./components/Projects/FormCardRight";
 const App = () => {
   return (
     <div>
-      <FormLogin />
-      {/* <FormCardRight /> */}
+      {/* <FormLogin /> */}
+      <FormCardRight />
       {/* <FormCard /> */}
       {/* <Counter /> */}
       {/* <ShortCircuit/> */}
@@ -13,5 +13,5 @@ const App = () => {
     </div>
   );
 };
-
+ 
 export default App;

@@ -9,7 +9,7 @@ const NetflixSeries = () => {
     </ul>
   );
 };
-  
+
 export default NetflixSeries;
 
 // import seriesData from "../api/seriesData.json";

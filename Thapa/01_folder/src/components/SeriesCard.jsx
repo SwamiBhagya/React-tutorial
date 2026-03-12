@@ -10,10 +10,10 @@ const SeriesCard = ({ data: { name, img_url, rating } }) => {
           className={`text-xl text-gray-900 pl-1.5 ${rating > 8 ? "bg-green-400 " : "bg-red-400"}`}
         >
           Rating: {rating}
-        </h5> 
+        </h5>
         <button className="text-l border-2 p-1 m-3">Watch Now</button>
       </div>
-    </li> 
+    </li>
   );
 };
 

@@ -25,10 +25,7 @@ export const EventHandling = () => {
     // </>
 
     <div className="flex items-center justify-center h-screen">
-      <button
-        onClick={handleButtonClick}
-        className="border-2"
-      >
+      <button onClick={handleButtonClick} className="border-2">
         click 1
       </button>
     </div>

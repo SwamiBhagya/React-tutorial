@@ -6,9 +6,9 @@ const FormCardRight = () => {
     lastName: "",
     phoneNumber: "",
     email: "",
-    passWord: "", 
+    passWord: "",
   });
- 
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setUser((prev) => ({ ...prev, [name]: value }));
